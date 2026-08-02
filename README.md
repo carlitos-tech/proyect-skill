@@ -1,4 +1,4 @@
-# Entradas y Salidas de los Skills
+# Proyect Skill - Entradas y Salidas de los Skills
 
 Documentación de los inputs y outputs de los skills disponibles en este repositorio después de importarlos en Claude.
 
@@ -208,6 +208,24 @@ Según el tipo de entrada, produce a través de 5 modos:
 
 ---
 
+## Estructura del repositorio
+
+```
+proyect-skill/
+├── skill-builder-artifact-pro/   # Skill para diseñar y construir artifacts
+│   ├── SKILL.md
+│   ├── assets/                   # Plantillas de specs
+│   ├── references/               # Base de conocimiento
+│   └── scripts/                  # Validadores
+├── skill-builder-pro/            # Skill para crear y validar skills
+│   ├── SKILL.md
+│   ├── assets/                   # Plantillas
+│   ├── references/               # Documentación y patrones
+│   └── scripts/                  # Scripts de validación
+├── README.md                      # Este archivo
+├── .gitignore                     # Configuración de Git
+```
+
 ## Cómo usar este repositorio
 
 1. **Para crear un artifact**: Importa `skill-builder-artifact-pro` (artifact-architect) en tu instancia de Claude
@@ -215,8 +233,27 @@ Según el tipo de entrada, produce a través de 5 modos:
 3. Sigue los modos/casos del skill activado
 4. Los skills guiarán el flujo completo de diseño → construcción → instalación
 
-## Referencias
+## Instalación rápida
 
-- `artifact-architect`: Vive en `skill-builder-artifact-pro/SKILL.md`
-- `skill-builder-pro`: Vive en `skill-builder-pro/SKILL.md`
-- Ambos contienen referencias, patrones, plantillas y scripts de validación en sus respectivos directorios
+```bash
+# Clonar el repositorio
+git clone https://github.com/carlitos-tech/proyect-skill.git
+
+# Navegar al directorio
+cd proyect-skill
+
+# Los skills están listos para importar en Claude
+```
+
+## Referencia rápida
+
+| Skill | Entrada típica | Salida típica | Tiempo |
+|-------|---|---|---|
+| artifact-architect | "Quiero un dashboard" | Spec de 12 campos o artifact funcional | 10-15 min |
+| skill-builder-pro | "Automatizar esta tarea" | SKILL.md validado + paquete .skill | 20-30 min |
+
+## Soporte
+
+- Para problemas con artifacts: Consulta `skill-builder-artifact-pro/references/`
+- Para problemas con skills: Consulta `skill-builder-pro/references/diagnostico.md`
+- Para validar: Usa los scripts en `scripts/validar_*.py`
