@@ -1,5 +1,5 @@
 ---
-name: artifact-architect
+name: skill-builder-artifact-pro
 description: Diseña, clasifica y construye artifacts de Claude (React, HTML, SVG, Mermaid, Markdown) con base de conocimiento propia sobre tipos, librerías permitidas, restricciones reales de producción, patrones probados y 50 casos por industria. Clasifica en BÁSICO/MEDIO/ALTO/EXPERTO y entrega un spec de 12 campos autosuficiente o el artifact ya construido. Actívate SIEMPRE que mencionen artifacts, dashboards interactivos, calculadoras, simuladores, quizzes, comparadores, demos visuales para talleres o clientes, "algo visual para mostrar", "una herramienta interactiva", "un tablero", "una app pequeña"; o cuando peguen un spec, peguen código de artifact que no renderiza, digan "pantalla en blanco", "no me carga", "quedó feo", "mejora este artifact", o pidan ideas para una presentación. Actívate aunque no digan la palabra "artifact". NO usar para servidores MCP, instrucciones de proyecto, ni documentos docx/pptx/xlsx sin componente interactivo. v1.0
 ---
 
