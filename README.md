@@ -6,12 +6,12 @@ Documentación de los inputs y outputs de los skills disponibles en este reposit
 
 ## Índice
 
-1. [artifact-architect](#artifact-architect)
+1. [skill-builder-artifact-pro](#skill-builder-artifact-pro)
 2. [skill-builder-pro](#skill-builder-pro)
 
 ---
 
-## artifact-architect
+## skill-builder-artifact-pro
 
 **Descripción:** Diseña, clasifica y construye artifacts de Claude (React, HTML, SVG, Mermaid, Markdown) con base de conocimiento propia sobre tipos, librerías permitidas, restricciones de producción, patrones probados y 50 casos por industria.
 
@@ -228,8 +228,8 @@ proyect-skill/
 
 ## Cómo usar este repositorio
 
-1. **Para crear un artifact**: Importa `skill-builder-artifact-pro` (artifact-architect) en tu instancia de Claude
-2. **Para crear un skill**: Importa `skill-builder-pro` (skill-builder-pro) en tu instancia de Claude
+1. **Para crear un artifact**: Importa `skill-builder-artifact-pro` en tu instancia de Claude
+2. **Para crear un skill**: Importa `skill-builder-pro` en tu instancia de Claude
 3. Sigue los modos/casos del skill activado
 4. Los skills guiarán el flujo completo de diseño → construcción → instalación
 
@@ -249,7 +249,7 @@ cd proyect-skill
 
 | Skill | Entrada típica | Salida típica | Tiempo |
 |-------|---|---|---|
-| artifact-architect | "Quiero un dashboard" | Spec de 12 campos o artifact funcional | 10-15 min |
+| skill-builder-artifact-pro | "Quiero un dashboard" | Spec de 12 campos o artifact funcional | 10-15 min |
 | skill-builder-pro | "Automatizar esta tarea" | SKILL.md validado + paquete .skill | 20-30 min |
 
 ## Soporte
